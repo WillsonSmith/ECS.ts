@@ -1,6 +1,6 @@
 ```ts
-import { ECS, Component, System } from './engine/ecs';
-import type { Entity } from './engine/ecs';
+import { ECS, Component, System } from './ecs';
+import type { Entity } from './ecs';
 
 class Zombie extends Component {
   health: number = 100;
